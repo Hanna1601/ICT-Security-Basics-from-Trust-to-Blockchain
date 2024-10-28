@@ -59,3 +59,13 @@ The intrusion kill chain (attacker) need to be reconstructed , the analysis of t
 *I tried to choose examples from the site that would open up the topics more for me, for the not so technical person. The social targeting and phishing emails are starting to be quite familiar topic for most companies.* 
 	
 #### Sources: https://attack.mitre.org/resources/faq/ and https://attack.mitre.org/techniques/T1566/
+
+## Additional questions A and B
+
+A) How would you compare Cyber Kill Chain and ATT&CK Enterprise matrix? Who do you think could benefit from these models?
+* I think the ATT&CK Enterprise matrix is more comprehensive, as the Cyber Kill Chain has 7 steps and describes things from the attackers point of view and more from high level. If I think company leadership the Cyber Kill Chain model is more easier to follow and understand. Going thru the ATT&CK site and the Enterprise matrix you have high number of models, examples of cases, I would see this more use for developers.
+
+B) Pick a security incident and learn about it. Write briefly about it. Point out the concepts of threat actor, exploit, vulnerability and (business) impact. (You can find writeups about security incidents from Darknet Diaries and Krebs)
+* I use the same case in this tasks that I opened up previously. Threat actor: In this case it was the penetrator testes, that posed as an attacker trying to get physical access to governmental contractor offices and also networks. They exploited human behavior, the followed their behavior to gain access and pretending to be an employee with no questions asked. There were vulnerabilities like weak or non-existing controls for physical access,  lack of employee awareness to challenge unfamiliar people, moving in the office and access to network was easy, lack of guidance employees left their computers unlocked, gaining control of kiosk- computer in the lobby, sensitive information visible to anyone. As this was a test the business impact could have been: compromised classified information and data, damage to company and loss of contracts. 
+
+
