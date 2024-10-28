@@ -68,4 +68,6 @@ A) How would you compare Cyber Kill Chain and ATT&CK Enterprise matrix? Who do y
 B) Pick a security incident and learn about it. Write briefly about it. Point out the concepts of threat actor, exploit, vulnerability and (business) impact. (You can find writeups about security incidents from Darknet Diaries and Krebs)
 * I use the same case in this tasks that I opened up previously. Threat actor: In this case it was the penetrator testes, that posed as an attacker trying to get physical access to governmental contractor offices and also networks. They exploited human behavior, the followed their behavior to gain access and pretending to be an employee with no questions asked. There were vulnerabilities like weak or non-existing controls for physical access,  lack of employee awareness to challenge unfamiliar people, moving in the office and access to network was easy, lack of guidance employees left their computers unlocked, gaining control of kiosk- computer in the lobby, sensitive information visible to anyone. As this was a test the business impact could have been: compromised classified information and data, damage to company and loss of contracts. 
 
+For the point C install Debian on Virtualbox, see [additional page.](./Task%20H1%20point%20C.md "Link to next page to open how the installion went")
+
 
