@@ -72,16 +72,10 @@
   ![image](https://github.com/user-attachments/assets/3d6e5e69-75af-4aea-9d40-4e403a8b3117)
 
 * I think I was doing pretty well until the last part when installing the additions to able to have big desktop and copy-paste between host and quest machines.
-  This is where I got stuck, I have Linux in use but with little screen 
+  This is where I got stuck, I have Linux in use but with little screen. 
 
   ![image](https://github.com/user-attachments/assets/e37f7d75-dbb9-4bd8-aee2-e1f6f9799d04)
   
-
-
-
-
-
-
 
 
 ##### Sources for installing Debian and VirtualBox: Quides in general for installing Debian and Virtualbox
