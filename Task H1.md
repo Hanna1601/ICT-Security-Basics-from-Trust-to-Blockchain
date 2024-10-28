@@ -1,5 +1,7 @@
 # H1 Summary of the articles and darknet diaries
 
+>This page has the summaries of articles, Darknet Diaries and the ATT&CK website and also points A and B. Please see link in the end for point C installing Linux.
+
 ## Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains
 
 APTs (Advanced Persistent Threats) represent a significant risk to organizations, characterized by targeted intrusions that exploit vulnerabilities for economic or military gain. Traditional defenses often fail against these threats
