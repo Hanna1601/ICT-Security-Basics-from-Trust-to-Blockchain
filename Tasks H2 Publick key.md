@@ -2,7 +2,7 @@
 
 >This page summarizes the articles in homework 2
 
-## Read and summarize Chapter 2 to sections 2.5 - 2.8 of Applied Cryptography
+## Read and summarize Chapter 2 - sections 2.5 - 2.8 of Applied Cryptography
 
 ### Section 2.5 Communications using public-key Cryptography
 
@@ -59,3 +59,21 @@ Digital signature with public-key cryptography is protocol that combines the sec
   * For a sequence to be cryptographically secure pseudo-random it needs to be unpredictable
 
 Source: https://learning.oreilly.com/library/view/applied-cryptography-protocols/9781119096726/10_chap02.html#chap02-sec005
+
+## Read and summarize Chapter 2 Cryptographic hash functions and digital signatures
+
+### Cryptographic hash functions
+* Bitcoin uses cryptographic hashes and one cannot learn Bitcoin without knowing the hashes
+* You can compare a cryptographic hash to a fingerprint on particular finger, these is no same in the entire world, yet it doensn't reveale any personal data about the person, it just a fingerprint.
+  * Hash = something that is chopped to small pieces what does it mean in the world of computers?
+    * It takes something, for example a picture, performs mathematical calculations on it and out comes a big unique number that doesn't resemble the orgianal picture
+    * Cryptographic hash functions can be used as an integrity check to detect changes in data
+      
+### Digital signatures
+
+Digital signature is tied to a random number called a private key ant it is much harder to forge than a handwritten signature.
+The private and public keys are a pair because they have a strong relationship: 
+* The public key can be used to encrypt messages that only the private key can decrypt
+* The private key can encrypt messages that only the public key can decrypt
+
+Source: https://learning.oreilly.com/library/view/grokking-bitcoin/9781617294648/OEBPS/Text/kindle_split_011.html#ch02lev1sec1
