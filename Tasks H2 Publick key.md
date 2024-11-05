@@ -94,12 +94,16 @@ Source: https://terokarvinen.com/2023/pgp-encrypt-sign-verify/
 
 ## Task A
 
-* Pubkey today. Explain how you have used public key cryptography today or yesterday, outside of this homework. In addition to naming the system, identify how different parties use keys in different steps of the system.
+> Pubkey today. Explain how you have used public key cryptography today or yesterday, outside of this homework. In addition to naming the system, identify how different parties use keys in different steps of the system.
 
 I use Apple Pay quite often, it comes in handy when forgetting wallet at home. 
+* You add your card to Apple Pay and the card gets a unique code in the device (DAN / Device Account Number) from bank or you card issues , this code is sent to Apple
+* When using it for purchase a one-time code from device is created, that code and DAN are send to the spesific store.
+  Before the store approves the payment, your bank, card issuer etc. can verify your payment information by checking the dynamic security code to make sure that it’s unique and tied to your device.
 
-
-Source: https://developer.apple.com/documentation/passkit_apple_pay_and_wallet/apple_pay/payment_token_format_reference#//apple_ref/doc/uid/TP40014929-CH8-SW3
+Sources: 
+https://developer.apple.com/documentation/passkit_apple_pay_and_wallet/apple_pay/payment_token_format_reference#//apple_ref/doc/uid/TP40014929-CH8-SW3
+https://support.apple.com/en-us/101554
  
 ## Task B
 
