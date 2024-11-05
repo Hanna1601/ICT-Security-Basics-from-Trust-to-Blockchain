@@ -107,7 +107,16 @@ https://support.apple.com/en-us/101554
  
 ## Task B
 
-* Messaging. Send an encrypted and signed message using PGP, then verify and decrypt it. (You can use folders to simulate users, or use two computers or two different OS users. Don't use Tero as a name of any party, unless that's your given name.)
+> Messaging. Send an encrypted and signed message using PGP, then verify and decrypt it. (You can use folders to simulate users, or use two computers or two different OS users. Don't use Tero as a name of any party, unless that's your given name.)
+* With this taks I got as far as sending the messages, not sure if was able to verify my key as Alice because got error when sending the message and the final pain point was that apparantly in the beginning doing the secrets I misspelled the password and couldn't get it right. 
+ ![image](https://github.com/user-attachments/assets/cd5819bc-6a4f-41da-8caa-946c7af41a93)
+* I think I have start a this task from the start. Basically all my time went to getting the folders etc working and moving the secrects between test persons. But I could see the folders there for Alice and me, and the publics I was able to transfer as the files were there
+* The verification of Alice's key I think I was able to do
+  ![image](https://github.com/user-attachments/assets/ac436a49-fba1-4762-864b-141edb8f151c)
+
+** I also had issues with the terminals, I don't what key combination I used but it stopped writing. 
+
+Sources: https://terokarvinen.com/2023/pgp-encrypt-sign-verify/
 
 ## Task C
 
@@ -115,7 +124,7 @@ https://support.apple.com/en-us/101554
 
 ## Task D
 
-*Eve and Mallory. In many crypto stories, Eve is a passive eavesdropper, listening on the wire. Mallory malliciously modifies the messages. Explain how PGP protects against Mallory and Eve. Be specific what features, which use of keys and which flags in the command are related to this protection. (This subtasks does not require tests with a computer)
+*Eve and Mallory. In many crypto stories, Eve is a passive eavesdropper, listening on the wire. Mallory malliciously modifies the messages. Explain how PGP protects against Mallory and Eve. Be specific what features, which use of keys and which flags in the command are related to this protection. 
 
  ## Task F
  
@@ -123,6 +132,8 @@ https://support.apple.com/en-us/101554
 
  ## Task G
  
- * Refer to sources. Verify each homework report (this and the earlier ones) refers to sources. Every homework report should refer to this task page. It should also have references to any other source used, such as web pages, LLMs, man pages, other reports... References are mandatory, and must be present in every report. (This subtask does not need a report, you can just do it and write "Done." as the answer for this subtask.)
+ > Refer to sources. Verify each homework report (this and the earlier ones) refers to sources. Every homework report should refer to this task page. It should also have references to any other source used, such as web pages, LLMs, man pages, other reports... References are mandatory, and must be present in every report. (This subtask does not need a report, you can just do it and write "Done." as the answer for this subtask.)
 
+* DONE
+Other Sources: https://terokarvinen.com/trust-to-blockchain/#h2-pubkey
 
