@@ -120,18 +120,45 @@ Sources: https://terokarvinen.com/2023/pgp-encrypt-sign-verify/
 
 ## Task C
 
-* Other tool. Encrypt a message using a tool other than PGP. Explain how different parties use different keys at different stages of operation. Evaluate the security of the tool you've chosen.
+> Other tool. Encrypt a message using a tool other than PGP. Explain how different parties use different keys at different stages of operation. Evaluate the security of the tool you've chosen.
+* Just not that technical person I think and since I didn't ace the task C this felt also a bit hard. I tested OpenSSL and ccrypt which I both think are more related to encrypting files.
+* Here is the result, didn't get any errors but defenetely missing something
+    ![image](https://github.com/user-attachments/assets/551554a1-7f09-4325-8b94-51faa3f76dbc)
+
+* When trying these I knew the security of these wouldn't be so high as in ccrypt you give password and send in "securely" to the recipient. So there would be basically in my case be two different emails :D 
+
+Sources: https://www.tutorialspoint.com/5-tools-to-encrypt-decrypt-and-password-protect-files-in-linux
 
 ## Task D
 
-*Eve and Mallory. In many crypto stories, Eve is a passive eavesdropper, listening on the wire. Mallory malliciously modifies the messages. Explain how PGP protects against Mallory and Eve. Be specific what features, which use of keys and which flags in the command are related to this protection. 
+> Eve and Mallory. In many crypto stories, Eve is a passive eavesdropper, listening on the wire. Mallory malliciously modifies the messages. Explain how PGP protects against Mallory and Eve. Be specific what features, which use of keys and which flags in the command are related to this protection.
+
+* Messages are encrypted using the public key of the recipient, as stated the public key is public but the message should be able to be decrypted with only the recipients secret that is paired with the public.
+* Case Eve from the internet: Hybrid approach - PGP a uses a randomly generated symmetric key to encrypt the message body.
+This symmetric key is then encrypted with the recipient's public key.
+* Case Mallory: Sender signs messages with their private key and the recipient can verify the signature using the sender's public key. Changes in the message invalid the signature.
+** For the command line part this feels again a bit out my current expertise. From the materials I would understand that they first establish trust, that the publickey really belongs to the person who we think it should belong. On command line I would say this is the sign-key.
+  
+Sources: https://terokarvinen.com/2023/pgp-encrypt-sign-verify/
 
  ## Task F
  
- * Password management. Demonstrate use of a password manager. What kind of attacks take advantage of people not using password managers? (You can use any password manager, some examples include pass and KeePassXC.)
+> Password management. Demonstrate use of a password manager. What kind of attacks take advantage of people not using password managers?
+* Password managers create long and complex passwords, they also store them so maybe temptation to use the same cat name for every system as a password is a little lower. When passwords aren't complex they are more easy to guess and when you use the cat name for multiple places is just quite simple to crack everything.
+** There are several attacks that can be done that the passwords managers can slow done or stop, like brute force attacks, phishing, keylogging, password reuse attacks
+* There are several password managers on the market, I will make few points from LassPass as that is familiar for me
+** You can generate complex passwords with it
+** You can control if you want to have autologin or autofill to sertain webpages, or you can choose not to
+** You can also store there passwords that are not linked to webpages.
 
- ## Task G
+Of course it is good to remember that world isn't perfect and also password managers are target. When ever you can use MFA it is alway better. Many password manager have been hacked, liked Lastpass, F-Secure etc.
+
+Source: 
+https://www.lastpass.com/
+https://bestreviews.net/which-password-managers-have-been-hacked/
+https://www.keepersecurity.com/blog/2024/04/24/how-password-managers-protect-you-from-cyber-attacks/
  
+## Task G
  > Refer to sources. Verify each homework report (this and the earlier ones) refers to sources. Every homework report should refer to this task page. It should also have references to any other source used, such as web pages, LLMs, man pages, other reports... References are mandatory, and must be present in every report. (This subtask does not need a report, you can just do it and write "Done." as the answer for this subtask.)
 
 * DONE
