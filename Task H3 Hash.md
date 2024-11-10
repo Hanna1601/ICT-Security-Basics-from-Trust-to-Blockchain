@@ -24,8 +24,33 @@
     * someone with the key can verify the hash value
     
 Sources: https://learning.oreilly.com/library/view/applied-cryptography-protocols/9781119096726/10_chap02.html#chap02-sec003
-
+## 
 > Karvinen 2022: Crackin Passwords with Hashcat
 
+* Hashcat is a password recovery program that you can install in Linux terminal
+* The idea in passwords is that systems don't store the orignal passwords they store hashes
+  * If user input password Salasana123 the system stores in hash value that could look like this "1e4e7a154dsr4f366ab81f2ac3e3267i" (totally made up value)
+  * When user retrieves the password they type Salasana124 and the systems compares the hash values and they don't match (in this case) the login is denied
+* With Hascat you can make computer try the different words and tell what matches
+  * After insalltion you tell the program the hash it need to crack and what type of hash it is cracking
 
 Sources: https://terokarvinen.com/2022/cracking-passwords-with-hashcat/
+## 
+> Karvinen 2020: Command Line Basics Revisited, Voluntary
+* $ - marks the normal user command promt, user doesn't need to write this. With # you can make a comment, then rest of the line is ignored. 
+* $ ls - list files in working directory and $ pwd prints the working directory
+* $ cd - change directory and you can give $ cd test/ - after that you workd in test directory. Getting back to main just write $ cd
+
+* You can view text file and edit the file also.
+* Create new directories (folders) and move and rename files forexample to that new directory
+
+* In Linux there are important directories that you need to remember and they are the same in every Linux systems.
+  *  $ / - root direcotry
+  *  $ /home/ - home directories for all users
+  *  $ /home/test - home directory for user test
+  *  $ /etc/ - system wide settings
+  *  $ /media/ - removable media
+  *  $ /var/log/ - system logs
+* There are also administrative commands like sudo, which allow to install and remove software, creating users and managing privileges. In order to use the you need to have the highest privileges. 
+
+Sources: https://terokarvinen.com/2020/command-line-basics-revisited/
