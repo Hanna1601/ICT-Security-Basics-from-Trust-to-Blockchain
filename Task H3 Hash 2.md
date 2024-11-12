@@ -84,6 +84,8 @@ Crack this hash: 21232f297a57a5a743894a0e4a801fc3
 
 It's important to use robust, unique passwords, enable multi-factor authentication, and consider using a password manager to protect against dictionary attacks.
 * add length your password as it increases the error needed to crack the password
+* use password manager
+* don't use same password in many places
   
 Source: https://www.howtogeek.com/devops/how-to-protect-your-organization-against-password-dictionary-attacks/
 
