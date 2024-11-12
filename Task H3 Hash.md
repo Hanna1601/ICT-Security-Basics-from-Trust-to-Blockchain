@@ -1,5 +1,5 @@
-# H3 Hashes
-> Homework for task H3
+# H3 Hashes Part 1
+> Homework for task H3, please see additional page for hands on practise
 
 ## Read and summarize
 > Schneier 2015: Applied Cryptography, subchapter 2.3 One-way function and 2.4 One-way hash functions
