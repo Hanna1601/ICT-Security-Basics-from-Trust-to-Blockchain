@@ -19,7 +19,7 @@ Voluntary bonus: How is this related to Bitcoin?
 
 Source: https://academy.bit2me.com/en/sha256-bitcoin-algorithm/
 
-## Compare hash 
+## B Compare hash 
 
 Create a small text file. Take it's hash (e.g. 'sha256sum tero.txt'). 
 * Created a text file called: taskb with text ![image](https://github.com/user-attachments/assets/f189712d-64bc-4f21-8532-7fb0624669b1)
@@ -27,11 +27,11 @@ Create a small text file. Take it's hash (e.g. 'sha256sum tero.txt').
   * Read the file content in terminal: ![image](https://github.com/user-attachments/assets/7fd30b9e-f30d-46f7-a77f-977739a2d9e2)
 * Got the hash for it
   
-  ![image](https://github.com/user-attachments/assets/07e80c55-d0f9-417a-a2f9-c568662fea51)
+![image](https://github.com/user-attachments/assets/07e80c55-d0f9-417a-a2f9-c568662fea51)
  
 * Changed one letter in the file using nano from test to testi
   
-  ![image](https://github.com/user-attachments/assets/051387ca-197b-4dbb-8c22-86bf9b5cda02)
+![image](https://github.com/user-attachments/assets/051387ca-197b-4dbb-8c22-86bf9b5cda02)
  
 * Take the hash again.
   
@@ -39,6 +39,26 @@ Create a small text file. Take it's hash (e.g. 'sha256sum tero.txt').
 
 Compare hashes, what do you notice?
 * The hashes are totally different just by changing or in this case adding one letter
+
+## C Hashcat 
+
+Install hashcat and test that it works
+
+![image](https://github.com/user-attachments/assets/112804bf-c363-4b97-82c7-e83e81589fb2)
+
+* Added a new folder / directory hashed
+
+![image](https://github.com/user-attachments/assets/75bd8bb2-4a9f-4dba-9840-b6d619dd994f)
+
+![image](https://github.com/user-attachments/assets/c9bff60d-24ed-4bb2-a6c5-0d74da27f350)
+
+* Got the rockyou directory from gtihub link (https://terokarvinen.com/2022/cracking-passwords-with-hashcat/) and saved it to directory hashed
+
+![image](https://github.com/user-attachments/assets/f3272f3a-a3ab-426a-b3c7-4c546797ed7f)
+
+![image](https://github.com/user-attachments/assets/52e9bb11-84cc-44bf-bf43-5e0bef73ecc9)
+
+
 
 
 
