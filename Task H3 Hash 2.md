@@ -2,7 +2,7 @@
 > The Linux part of the homework
 
 ## A Billion dollar busywork
-Command 'echo -n "hello"|sha256sum' prints a hash. 
+Command 'echo -n "hello"|sha256sum' prints a hash.  
 
 ![image](https://github.com/user-attachments/assets/261f2eb1-8f5d-4973-a94a-e485265abb16)
 
