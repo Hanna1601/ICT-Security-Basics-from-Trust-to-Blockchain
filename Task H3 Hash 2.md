@@ -91,8 +91,52 @@ Source: https://www.howtogeek.com/devops/how-to-protect-your-organization-agains
 
 Install Jumbo John (John the Ripper, open source Jumbo version). Compile it from source code as needed. 
 
+* Followed the instructions got the error that it couldn find package zlib-gst and I couldn't find any help to this
+
+![image](https://github.com/user-attachments/assets/f075895a-8152-490b-98e7-c3e2599b640d)
+
+* Tried to move forward if the above error wouldn't matter, so moved on downloading the john.git
+* but needed to first install the git because got error that git:command not found. After the installion the cloning was successfull.
+
+![image](https://github.com/user-attachments/assets/b073af7a-e0bc-42d1-a844-b2f9393f0ee7)
+
+![image](https://github.com/user-attachments/assets/25b91e68-e568-4e5d-95cd-b45a568e111d)
+
+* Had to install the development headers based on error on previous part
+
+![image](https://github.com/user-attachments/assets/0ff8075c-c9dc-4021-b986-dac5b0c4868a)
+
+![image](https://github.com/user-attachments/assets/c9a8f477-9030-4b5a-9bc6-4ea25316d316)
+
+* Ran the make and clean
+
+![image](https://github.com/user-attachments/assets/67b603c0-4d09-4333-8208-7cdd450a49f2)
+
+  
 Source: https://terokarvinen.com/2023/crack-file-password-with-john/
 
+* listed tons of files under john/run and was able to het the version so I think I managed to get it downloaded, compiled and running.
+  * although I think the one error before will show up later to give hard time that I wasn't able to solve
+
+![image](https://github.com/user-attachments/assets/37587ad1-95e7-42be-9093-f11538032ad8)
+
+
 ## K Crack file password with John
+
+* Downloaded the tero.zip file and tried opening it
+
+![image](https://github.com/user-attachments/assets/5de2ed06-3f90-4512-a570-ef158b54a1d3)
+
+* Was able to get the hash to new txt file
+
+![image](https://github.com/user-attachments/assets/d049098b-68b5-4c0a-99ff-6ac5e2c637f4)
+
+* Encounted error that couldn't solve with the actual dictionary attack
+
+![image](https://github.com/user-attachments/assets/3d626077-0469-48ac-8e06-a8bb118aa368)
+
+* Was able based on instruction to read the file in terminal
+
+![image](https://github.com/user-attachments/assets/c906a021-b611-46a5-b193-ce007de7362c)
 
 
