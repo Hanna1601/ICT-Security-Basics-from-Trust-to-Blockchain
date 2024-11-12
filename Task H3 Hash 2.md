@@ -58,6 +58,18 @@ Install hashcat and test that it works
 
 ![image](https://github.com/user-attachments/assets/52e9bb11-84cc-44bf-bf43-5e0bef73ecc9)
 
+* Tested the hashid
+
+![image](https://github.com/user-attachments/assets/5a4d912c-26c1-4dd7-84e2-0dde0ab51d17)
+
+## D Dictionary attack 
+
+Crack this hash: 21232f297a57a5a743894a0e4a801fc3
+
+## E How can you make a password that's protected against a dictionary attack?
+
+
+![image](https://github.com/user-attachments/assets/27a01260-7257-442e-813f-2726dd003c7f)
 
 
 
