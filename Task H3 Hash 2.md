@@ -66,12 +66,33 @@ Install hashcat and test that it works
 
 Crack this hash: 21232f297a57a5a743894a0e4a801fc3
 
+![image](https://github.com/user-attachments/assets/58583bb5-2ea6-4fc8-a0f2-57d3f287654c)
+
+* I think I got the start correct but apparantly not enough memory
+  
+![image](https://github.com/user-attachments/assets/63db614d-d17f-4ff7-bd6f-461c64e56ce9)
+
+* I added the memory to Virtual Box (with the help of google) and got different result
+  
+![image](https://github.com/user-attachments/assets/2f4d1217-2975-4a84-af51-6435ef5d0cd9)
+
+* And to the the file solved got the password : admin
+
+![image](https://github.com/user-attachments/assets/cd508f7c-fcac-4f16-a090-1a8e6aa083ec)
+
 ## E How can you make a password that's protected against a dictionary attack?
 
+It's important to use robust, unique passwords, enable multi-factor authentication, and consider using a password manager to protect against dictionary attacks.
+* add length your password as it increases the error needed to crack the password
+  
+Source: https://www.howtogeek.com/devops/how-to-protect-your-organization-against-password-dictionary-attacks/
 
-![image](https://github.com/user-attachments/assets/27a01260-7257-442e-813f-2726dd003c7f)
+## J John. 
 
+Install Jumbo John (John the Ripper, open source Jumbo version). Compile it from source code as needed. 
 
+Source: https://terokarvinen.com/2023/crack-file-password-with-john/
 
+## K Crack file password with John
 
 
