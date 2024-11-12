@@ -54,3 +54,4 @@ Sources: https://terokarvinen.com/2022/cracking-passwords-with-hashcat/
 * There are also administrative commands like sudo, which allow to install and remove software, creating users and managing privileges. In order to use the you need to have the highest privileges. 
 
 Sources: https://terokarvinen.com/2020/command-line-basics-revisited/
+>**Please see [additional page] the points a-e. (https://github.com/Hanna1601/ICT-Security-Basics-from-Trust-to-Blockchain/blob/main/Task%20H3%20Hash%202.md)**
