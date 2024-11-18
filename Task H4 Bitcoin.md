@@ -36,4 +36,29 @@ To have electornic cash without needing the thrid party financial institution be
       
 Sources: Nakamoto, Satoshi. Bitcoin: A Peer-to-Peer Electornic Cash System. 2008. https://bitcoin.org/bitcoin.pdf
 ## 
-## A Wallet
+## A - Wallet
+
+* I was not able to login to Virtual Box
+>
+## F - RogeCoin. 
+
+*Critically comment on Honest Ads: If Cryptocurrency Was Honest*
+
+Identify and list arguments made. Provide commentary to support and challenge each of the claims. 
+1. Transfer cash "real money" to computer cash
+2. Digital money cannot be changed to goods and services
+3. Makes you look cool for small amount of internet trolls
+4. Blockchain - if you don't know what it is you are a good candidate to camble your real money
+5. Math problems and a lot of electircity
+6. Fancy words to gain traction
+7. Real money will come worthless
+8. Governments will collabse
+9. Pay exchange
+10. Climate change - use of electricity
+11. Wallet password forgot - loose all you money
+12. Investent - why would you wanna use it. Money you shouldn't spend
+13. Mining and CPU, 10 % is only left for mining
+14. Amateurs loose money, because they don't know what they are doing.
+15.If you can, provide references or real life examples to your claims. 
+
+Source: https://www.youtube.com/watch?v=GUs5y9leCyA
