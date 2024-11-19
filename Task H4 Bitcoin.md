@@ -1,5 +1,5 @@
 # H4 To the moon
-> Homework for task H1, summary of article and test with electornic money
+> Homework for task H4, summary of article and test with electornic money
 
 ## X Read and summarize
 > Nakamoto 2008: Bitcoin: A Peer-to-Peer Electornic Cash System
@@ -35,11 +35,78 @@ To have electornic cash without needing the thrid party financial institution be
     * The incentive can also be funded with transactions fees
       
 Sources: Nakamoto, Satoshi. Bitcoin: A Peer-to-Peer Electornic Cash System. 2008. https://bitcoin.org/bitcoin.pdf
-## 
+
 ## A - Wallet
 
-* I was not able to login to Virtual Box
->
+Create a BitCoin testnet wallet. (For example, electrum)
+* Run the Update sudo apt-get update and then installed the electrum sudo apt-get install electrum.
+ * The installion worked with no errors
+* Created the wallet with standard 
+  
+![image](https://github.com/user-attachments/assets/154bcb6d-6369-4769-9c40-009112bbb01f)
+
+![image](https://github.com/user-attachments/assets/09952791-8552-4c3b-8a8f-034935d8fed2)
+
+  * Chose not to encrypt the wallet to hopefully maket it easier. 
+
+![image](https://github.com/user-attachments/assets/15ee998a-6b83-4ccc-a3d9-aedb7834151e)
+
+* Got the wallet open but it says in the bottom not connected
+
+![image](https://github.com/user-attachments/assets/b4a57167-e2cb-47ff-a623-9f14fb6c86c5)
+
+## B Faucet 
+
+Get worthless fake money from a testnet Bitcoin faucet.
+* I used this: https://bitcoinfaucet.uo1.net/send.php
+  * The one in the document didn't work
+  * Really not sure if it work correctly or not but didn't give an error but really don't see the coins anywhere
+  * Did it again with same result
+        
+![image](https://github.com/user-attachments/assets/6219eff6-f3c4-43c1-b5e8-851dd81f1aed)
+
+* As I saw that the elctrum testnet was not connected I tried running it again from terminal wtih electrum --testnet
+  * I started the process again, gave a new name added number 2 but then thought I would get the same seed (?) as it suggested it and tadaa I was online my balance was 0,02!
+  * Really can't say that I know what I was doing
+ 
+ ![image](https://github.com/user-attachments/assets/fb3a2546-bc03-455a-b5c6-77b114efe609)
+
+
+## C Giveway and D Recyle
+
+Move money to another Bitcoin wallet. Choose an amount where the last two digists are 73.
+
+* Don't have another wallet of my own so send it to back
+  * Got error that not enough funds (the fees)
+
+![image](https://github.com/user-attachments/assets/5953fe50-d1a7-40c7-b220-8166b807d1a8)
+
+* I got stuck in here, couldn't send out any money out or the next step return it to the faucet as the above error.
+
+![image](https://github.com/user-attachments/assets/24657fba-d871-4f33-80c8-c2c6c078bb24)
+
+  
+## D Recycle 
+
+Move the testnet money back to the same faucet you got it from
+
+## E Explorer 
+Use a block explorer to analyze a block on the real Bitcoin blockchain. Explain what each value and field means. You only need to analyze the block information and one sample transaction, as a block can contain many transactions. 
+* I chose a block 870903 from https://blockstream.info/ and opened in blockexplorer.one
+
+The site gives you information about the block size, the total transactions which at the time were 6 179. 
+The difficulty I think means at some scale how difficult it is to mine the block. Rewards tell you what the miner gets. 
+
+![image](https://github.com/user-attachments/assets/c16ac9da-5225-4654-bd74-e459771704b7)
+
+* I looked in to one transaction the block
+
+It shows from where and to whom the coins were transferred. What the fee was for this transaction and what the transferred amount was in bitcons vs usd. 
+And of course the date and time of the transaction. There is also the number of transactions which is 170, that refers to number of blocks that have been added to the blockchain, each added block increases the security of the transaction. 
+
+![image](https://github.com/user-attachments/assets/040321fc-2da2-4220-8f82-94e7974d1892)
+
+
 ## F - RogeCoin. 
 
 *Critically comment on Honest Ads: If Cryptocurrency Was Honest*
