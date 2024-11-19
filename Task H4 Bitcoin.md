@@ -112,20 +112,26 @@ And of course the date and time of the transaction. There is also the number of 
 *Critically comment on Honest Ads: If Cryptocurrency Was Honest*
 
 Identify and list arguments made. Provide commentary to support and challenge each of the claims. 
-1. Transfer cash "real money" to computer cash
-2. Digital money cannot be changed to goods and services
-3. Makes you look cool for small amount of internet trolls
+
+1. Transfer cash "real money" to computer cash "magical money"
+   * Who actually gets you "real money" in this, just wondering and what is done with it if crypto is the way to go       
+2. Digital money cannot be changed to most of the goods and services
+   * I think this true, at least how I look at this. And after the exercise above I will be happy to use the "traditional" money     
+3. The "cool factor" - makes you look good for tiny bunch of internet trolls
+   * True maybe, but that is the case with many other things also, whether it is the latest super duper electrolyte drink that young these days couldn't survive. Maybe these guys don't show up in you instagram feeds to troll you when having a cup of old fashioned coffee.   
 4. Blockchain - if you don't know what it is you are a good candidate to camble your real money
-5. Math problems and a lot of electircity
-6. Fancy words to gain traction
-7. Real money will come worthless
-8. Governments will collabse
-9. Pay exchange
-10. Climate change - use of electricity
-11. Wallet password forgot - loose all you money
-12. Investent - why would you wanna use it. Money you shouldn't spend
-13. Mining and CPU, 10 % is only left for mining
-14. Amateurs loose money, because they don't know what they are doing.
-15.If you can, provide references or real life examples to your claims. 
+   * At least some part of it is true, Cryptocurrency has had its hype and maybe there were people involved and lost something due to fancy words and trying to be part of the hype.
+   * But there has been other hype investements that maybe weren't that succesfull either.
+5. Real money will come worthless and governments will collabse
+   * How do you determine the value of crypto, then again for the money that we use now the value is just the same, we have just accepted it globally.             
+6. Increase climate change - use of electricity
+   * I think true to some point, there are also other things in IT sector that consumer lots of energy and we could do without.
+7. Security risks
+   * Wallet password forgot, scammers, hackers and tech in general fails
+   * Risky business from many points if you don't know what you are doing. 
+9. Investment - why would you wanna use it?
+    * Maybe yes, cannot really say if it is good or bad investment, did the bubble already broke? 
+10. Amateurs loose money, because they don't know what they are doing.
+    * Defenetely would say this is true
 
 Source: https://www.youtube.com/watch?v=GUs5y9leCyA
