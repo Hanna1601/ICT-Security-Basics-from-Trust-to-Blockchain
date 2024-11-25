@@ -17,7 +17,7 @@
     * Customer should ask that are the products you are selling cybersecure
   * AIA - Artificial Intelligence Act, rights and product requirements are taken into account by maker of AI product
  
- As they work in manufacturing indistry they also have cloud applications like fleet management and diagnostics. For office cloud the applications could be finance, trave, HR. 
+ As they work in manufacturing indistry they also have cloud applications like fleet management and diagnostics. For office cloud the applications could be finance, travel, HR. 
  * They both have DM-zones that are a bit different
  * Other boxes he used were Dilbert Space and Industrial zone.
    * In DS are the workstations and the office nework, what is connected to the internet and protected with firewall
