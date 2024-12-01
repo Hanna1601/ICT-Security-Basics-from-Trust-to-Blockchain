@@ -36,13 +36,31 @@ Sources: https://css.csail.mit.edu/6.858/2022/readings/tor-design.pdf
   * Bridges were created mitigate a list of relays in Tor network to avoid blocking the Tor network. 
 
 * A Standard Tor Circuit Establishment
-* Circuit Establishment for Tor HS
+  * A circuit thru Tor network must be established by a Tor client before communicating over network
+  * Onion proxy must be installed on the device used for browsing. The OP contacts a DS and gets a list of active relays. Three relays are selected (entry, middle and exit nodes), a circiut is created incrementally by exchanging encryprion key with each node --> known also as hops.
+  *  Once three hops connections has been established the user can communicate with destination server over the circuit just created. 
+  
+* Circuit Establishment for Tor HS (hidden service)
+  * HS selects multiple introduction points from the available nodes in the Tor network and builds connections to those nodes
+  * HS connects to DS and advertises a service descriptor with public key, exp.time details of selected introduction points --> owner of HS can advertise HS's onion address in multiple platforms
+  * If user wants to access a HS they need the onion address
 
-* Fig. 6. Taxonomy for Tor attacks (Just the figure on page 2330.)
+* Fig. 6. Taxonomy for Tor attacks
+  * Attacks on Tor can be divided into four different categories; Network disruption, Censorship, Generic and De-anomymization attacks of which the last is looked in to more carefully.
+  * De-anonymization attacks can be divided into four; side channel, entry and exit routers, OP/OR/Server ja hybrid.
+  * All of these attacks can be categorized in to active and passive attacks. 
 
 Sources: https://ieeexplore.ieee.org/ielx7/9739/9621320/09471821.pdf
 
 ## 
 > Halonen, Ollikainen, Rajala 2023: PhishSticks - The Ethical Hackers tool for BadUSB
 
-Source: 
+* PhishSticks can be used to malicious attacks when usb devices is plugged in, compromising you personal or company data
+* On the video it was a keylogger payload, attack is visible a split second and the program installed records every keystroke made on the computer
+  * Getting for example credentials to user email, the logged data is stored in the victim's temp folder
+  * PhishStick sends the information to attacker via HTTP post
+  * PhishStick removes the logged data after it has been sent
+
+*No harm was caused to CEO*
+
+Source: https://www.youtube.com/watch?v=bDzVevtZiWE
