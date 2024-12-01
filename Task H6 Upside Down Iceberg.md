@@ -20,13 +20,24 @@ Sources: https://css.csail.mit.edu/6.858/2022/readings/tor-design.pdf
 > Karunanayake, Ahmed, Malaney, Islam and Jha 2021: De-anonymisation attacks on tor: A survey.
 
 * Abstract and Introduction
-   * The need for privacy in the internet has led to the development of anonymous communication systems.
-   *  Tor is currently world's most popular anonymity network, that provides anonymity to users and supports the deployment of aononmyous services (hidden services).
-   * The anonymity is also being misused in many ways. Due to the misuse governments and law enforcment are interested in attacks that aim to de-anonymising the Tor network.
-   * In response to these de-anonymisation attacks users expected anonymity is being strengthened by improving security and fixing known bugs.  
+  * The need for privacy in the internet has led to the development of anonymous communication systems.
+  *  Tor is currently world's most popular anonymity network, that provides anonymity to users and supports the deployment of aononmyous services (hidden services).
+  * The anonymity is also being misused in many ways. Due to the misuse governments and law enforcment are interested in attacks that aim to de-anonymising the Tor network.
+  * In response to these de-anonymisation attacks users expected anonymity is being strengthened by improving security and fixing known bugs.  
      
-* II Background (to the end of "B. Circuit Establishent for Tor HS")
-* 
+* II Background for taxonomy and the attacks discussed in the paper
+  * Onion Proxy (OP) or Tor client is a software installed to user's device, enableling communication with the directory servers, connects to Tor network and handles connections from the user's applications.
+  * Directory servers (DS) are trusted and known servers in the network, they produce a document about the network that the OPs can download to establish communication circuit to a destination.
+  * Entry Node / Guard is the relay where client connects to and it knows the Ip address of the client. Early Tor attacks used this to de-anonymise users.
+  * Exit node knows the IP address of the destination served accessed thru Tor network.
+  * Hidden services known also as Onion services, can be hosted on a node inside Tor network or an external node. The anonymity provided attracts those who are envolved in criminal activity.
+  * Introduction points are random nodes that HS selects to register its services, several of these are usually selected to avoid impact from Denial of Service. The introductions points don't know the IP address of the HS due to connection via complete Tor circuit.
+  * Rendevous point is a random Tor node, that is selected by the client OP before connection is initialised.
+  * Bridges were created mitigate a list of relays in Tor network to avoid blocking the Tor network. 
+
+* A Standard Tor Circuit Establishment
+* Circuit Establishment for Tor HS
+
 * Fig. 6. Taxonomy for Tor attacks (Just the figure on page 2330.)
 
 Sources: https://ieeexplore.ieee.org/ielx7/9739/9621320/09471821.pdf
