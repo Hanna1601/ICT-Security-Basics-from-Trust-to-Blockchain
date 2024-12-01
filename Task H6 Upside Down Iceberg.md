@@ -64,3 +64,44 @@ Sources: https://ieeexplore.ieee.org/ielx7/9739/9621320/09471821.pdf
 *No harm was caused to CEO*
 
 Source: https://www.youtube.com/watch?v=bDzVevtZiWE
+
+## A Install TOR browser and access TOR network
+
+Sources: https://www.torproject.org/download/
+
+## B Browse TOR network
+
+## C Onion
+> In your own words, how does anonymity work in TOR? How does it use: public keys, encryption, what algorithms
+
+* TOR (The Onion Router) enables online anonymity, it directs internet traffic whrough a network of relays of which many are set up and maintained by volunteers
+  * TOR circuit consist of Guard, Middle and Exit relays, in some cases there can be a bridge relay
+  * Messages are protected with multiple layers of encryption, like wrapping them in several layers of security, just like an onion has many layers.
+  * Traffic is allowed to pass onto or through the network through nodes that only know the node right before them and the one right after them. Its like passing a message down the line where each person only know the persons next to them.
+  * The Tor browser is automatically connected to Tor Network and all requests are placed through it, ensuring autonymity. Tor browser makes all it users look the same, making it harder to indentify you. 
+
+* Tor uses different keys with three different goals --> 1. encryption to ensure privacy, 2. authentication so clients know they are talking to relays meant to talk to, 3. signature to verify that all clients know the same set of relays
+  * Connections in Tor use TLS (Transport Layer Securit) link enrycption, Tor client also establishes an ephemeral encyrption key with each relay in the circuit (the neighbour example). Also they circuit key is discarded by both sides after usage.
+* The Tor software comes with a built-in list of location and public key for each directory authority
+* Algorithms used AES-256 adn SHA3-256
+  
+Sources: 
+https://portswigger.net/daily-swig/tor-security-everything-you-need-to-know-about-the-anonymity-network
+https://support.torproject.org/about/key-management/
+
+## D What kind of the threat models could TOR fit?
+I am not totally sure how to look at this question so I am looking this from the viewpoint that person or company is using TOR. 
+* Focus on privacy, anonymity and network security
+  * Protect against surveillance or censorsip. This might not be so close to us in western countries from government side but from big companies wanting your data.
+    * Tor anonymizes your browsing, making it hard to trace your activity back to you.
+  * Attack tree modelling where potential attacks are described in tree like modelling.
+    * If using Tor the attack tree could be used to illustrate routes the attackers might take to deanonymize users.
+
+Sources: https://www.practical-devsecops.com/types-of-threat-modeling-methodology/
+
+## E Don't stick that stick
+> How does PhishSticks attack work? Would a typical organization be vulnerable? Does this link to a broader category of attacks and defenses? How could the risk be mitigated?
+
+Sources: 
+https://github.com/therealhalonen/PhishSticks
+https://www.youtube.com/@phishsticks_pentest/videos
