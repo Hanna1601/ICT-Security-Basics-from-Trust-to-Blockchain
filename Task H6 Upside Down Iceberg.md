@@ -100,8 +100,26 @@ I am not totally sure how to look at this question so I am looking this from the
 Sources: https://www.practical-devsecops.com/types-of-threat-modeling-methodology/
 
 ## E Don't stick that stick
-> How does PhishSticks attack work? Would a typical organization be vulnerable? Does this link to a broader category of attacks and defenses? How could the risk be mitigated?
+> How does PhishSticks attack work? 
+* USB device is used to attack with malware to a computer, they exploit human being curious and maybe having a trust to everyday devices.
+  * Malware can be a keylogger as opened in the first part read and summarize, ransomware where for example application from USB device encrypts your files and ransom is demanded in order to decrypt the files. Revershell is also one, where connection from victims computer to attackers computer is established. 
+> Would a typical organization be vulnerable?
+* I think this depends for example company policy. To some extend in companies I think USB-memorysticks are prohibited (disable removable disks for devices).
+  * Of course there is always room for human error, even though education is in place.
+  * Maybe smaller organisations are more vulnerable to this where IT isn't the main thing
+> Does this link to a broader category of attacks and defenses?
+* With USB devices attackers can bybass traditional security defenses like antivirus and firewalls.
+  * Usually computer recognise these devices as trusted like a keyboard
+  * Public USB Charging stations can be compromised and when charging your company phone a malware is installed to you phone.
+  * Exploit human curiosity and computer autorun functions
+> How the risk could be mitigated?
+* The easiest as stated in few different sources, don't plug unknown devices to your computer or mobile pohone.
+* In the PhishSticks project they used powershell, that should be disabled from users and for home computers there should be different administrator privilages from daily use.
+* Disable AutoRun features - prevents automatic execution of programs from USB devices
+* USB Port Control for company devices to restrict which devices can be connected
+* User education
 
 Sources: 
 https://github.com/therealhalonen/PhishSticks
 https://www.youtube.com/@phishsticks_pentest/videos
+https://www.redzonetech.net/blog-posts/bad-usb
