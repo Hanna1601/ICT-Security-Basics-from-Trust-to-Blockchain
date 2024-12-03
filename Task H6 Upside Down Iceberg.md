@@ -66,10 +66,46 @@ Sources: https://ieeexplore.ieee.org/ielx7/9739/9621320/09471821.pdf
 Source: https://www.youtube.com/watch?v=bDzVevtZiWE
 
 ## A Install TOR browser and access TOR network
+* Tried installing the tor thru terminal but that didn't work out so well, got error for torbrowser-launcher that is doesn't have any installation candidates so I think I missed some steps. 
+* Went forward with downloading the package from their website
+  
+<img width="674" alt="image" src="https://github.com/user-attachments/assets/a6879ee7-ff33-42a9-a155-87b19abba3ee">
+
+<img width="573" alt="image" src="https://github.com/user-attachments/assets/001d3104-a2a2-4931-9336-c0df384a51ba">
+
+* Got the package
+  
+<img width="207" alt="image" src="https://github.com/user-attachments/assets/a401ca2a-a14c-48db-baf4-a35e510dabf3">
+
+* Verifying the signature using steps in torproject.org but got stuck
+  
+<img width="526" alt="image" src="https://github.com/user-attachments/assets/a0fe6042-43fe-455e-86c1-359c3313b678">
+
+<img width="377" alt="image" src="https://github.com/user-attachments/assets/0c6e0947-7aa5-46f4-a0f7-d0ce05750935">
+
+* So resuming installing the browser, extracted the files and clicked from the files start-tor-browser
+
+<img width="374" alt="image" src="https://github.com/user-attachments/assets/77564327-4880-4da8-8f2f-901867536563">
+
+* And success
+
+<img width="414" alt="image" src="https://github.com/user-attachments/assets/df637004-e58d-4100-8e46-767406556d8d">
+
+<img width="440" alt="image" src="https://github.com/user-attachments/assets/5d662773-262a-4504-b53e-f92d3a4dafd5">
 
 Sources: https://www.torproject.org/download/
 
 ## B Browse TOR network
+* Tried searching something - went with MTV3 to check the news they have to offer
+  * Accessing their page didn't work but wikipedia page about them opened up ok
+
+<img width="263" alt="image" src="https://github.com/user-attachments/assets/d9fe9c9c-d71b-4dd0-8874-c7c2efef54a2">
+
+<img width="409" alt="image" src="https://github.com/user-attachments/assets/e78ea505-3bae-4234-b2b4-5337c1fb1362">
+
+* Visited EFF site
+
+<img width="645" alt="image" src="https://github.com/user-attachments/assets/f4bfb3eb-3389-4e00-9760-9ae748219039">
 
 ## C Onion
 > In your own words, how does anonymity work in TOR? How does it use: public keys, encryption, what algorithms
