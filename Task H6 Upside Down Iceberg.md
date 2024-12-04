@@ -10,8 +10,8 @@
   * Flexibility and simple desing: The protocol must be flexible and well-specified, so Tor can be used in testing for future desings. The protocol design and security must be understood, simple and stable system that has the best accepted approaces to protect anonymity. 
   * Non-goals: As Tor favors simple and deployable designs some goals are not yet implemented because they are now yet solvable or they are solved elswhere.
     * Peer - to - peer environments has too many open problems still.
-    * Ent - to end attacks are not completely solved in Tor
-    * Protocl normalization is not provided by Tor
+    * End - to end attacks are not completely solved in Tor
+    * Protocol normalization is not provided by Tor
     * Tor doesn't conceal who is connected to the network
 
 Sources: https://css.csail.mit.edu/6.858/2022/readings/tor-design.pdf
