@@ -21,7 +21,7 @@ Sources: https://css.csail.mit.edu/6.858/2022/readings/tor-design.pdf
 
 * Abstract and Introduction
   * The need for privacy in the internet has led to the development of anonymous communication systems.
-  *  Tor is currently world's most popular anonymity network, that provides anonymity to users and supports the deployment of aononmyous services (hidden services).
+  *  Tor is currently world's most popular anonymity network, that provides anonymity to users and supports the deployment of anonymous services (hidden services).
   * The anonymity is also being misused in many ways. Due to the misuse governments and law enforcment are interested in attacks that aim to de-anonymising the Tor network.
   * In response to these de-anonymisation attacks users expected anonymity is being strengthened by improving security and fixing known bugs.  
      
