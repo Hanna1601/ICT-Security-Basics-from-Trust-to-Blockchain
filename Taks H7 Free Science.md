@@ -1,7 +1,7 @@
 # H7 Free Science
 > Homework for task  H7
 
-It was quite hard to find article and then search the journal / publication in Jufo. So I ended up searching across, then found publications from Jufo and found interesting article thru their site and also the same on in Google Scholar. 
+It was quite hard to find article and then search the journal / publication in Jufo. So I ended up searching backwards, first found publications from Jufo and found interesting article thru their site and then checked if I can find the same on in Google Scholar. 
 * I found research paper published in IEEE Security & Privacy that got JUFO rating 2
 * Paper was publishes 4.4.2024
   
@@ -44,3 +44,9 @@ Source: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10491270
 I tested to create an alert to Google Scholar. At the point of writing I am not sure how this is working, I think we will see.
 
 <img width="343" alt="image" src="https://github.com/user-attachments/assets/e1149be5-06d7-4935-9860-b09a43734885">
+
+## Voluntary voluntary bonus for last homework
+
+How cryptocurrency works? Viewer Discretion Advised
+
+https://www.instagram.com/reel/DDRAJjGJqX7/?igsh=ajJlYTVwNm5kNTlx
