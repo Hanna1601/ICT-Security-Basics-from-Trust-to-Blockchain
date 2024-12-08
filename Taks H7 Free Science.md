@@ -1,8 +1,9 @@
-# H7 Free Scienxe
+# H7 Free Science
 > Homework for task  H7
 
 It was quite hard to find article and then search the journal / publication in Jufo.
 * I found research paper published in IEEE Security & Privacy that got JUFO rating 2
+  
   <img width="343" alt="image" src="https://github.com/user-attachments/assets/9fdf391e-a713-4620-9918-b2840bb7d72a">
 
 ## Read and Summarize
