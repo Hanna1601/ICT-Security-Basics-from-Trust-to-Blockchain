@@ -3,6 +3,7 @@
 
 It was quite hard to find article and then search the journal / publication in Jufo. So I ended up searching across, then found publications from Jufo and found interesting article thru their site and also the same on in Google Scholar. 
 * I found research paper published in IEEE Security & Privacy that got JUFO rating 2
+* Paper was publishes 4.4.2024
   
   <img width="343" alt="image" src="https://github.com/user-attachments/assets/9fdf391e-a713-4620-9918-b2840bb7d72a">
 
